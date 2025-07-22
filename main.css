@@ -1,0 +1,18 @@
+body{margin:0;font-family:Arial,sans-serif;background:#0e0e0e;color:#e0e0e0;line-height:1.6;}
+.container{max-width:1200px;margin:0 auto;padding:40px 20px;}
+header{background:#1b1b1b;padding:10px 0;position:sticky;top:0;z-index:1000;}
+.logo img{height:50px;}
+nav{display:flex; gap:20px;}
+#nav-toggle{display:none;}
+.banner{background:url('../assets/banner.jpg')center/cover;height:450px;display:flex;align-items:center;justify-content:center;text-align:center;color:#fff;}
+.banner h1{font-size:2.5rem;text-shadow:2px 2px 6px rgba(0,0,0,0.7);}
+.btn{background:#3a6ead;color:#fff;padding:12px 24px;border:none;border-radius:4px;cursor:pointer;text-decoration:none;display:inline-block;}
+.btn:hover{background:#5a8fcc;}
+.cards{display:flex;gap:20px;flex-wrap:wrap;}
+.card{background:#1f1f1f;padding:20px;border-radius:6px;flex:1 1 300px;}
+.article iframe{max-width:100%;border-radius:6px;}
+footer{background:#1b1b1b;color:#aaa;text-align:center;padding:20px;}
+@media(max-width:768px){
+  nav{display:none;flex-direction:column;}
+  #nav-toggle{display:block;background:none;border:none;color:#fff;font-size:1.5rem;}
+}
